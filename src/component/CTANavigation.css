@@ -1,0 +1,42 @@
+.cta-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px; /* This adds space between the links */
+    padding: 20px 0;
+    border-top: 1px solid #ccc; /* This adds the top line */
+    border-bottom: 1px solid #ccc; /* This adds the bottom line */
+  }
+  
+  .cta-link {
+    text-decoration: none;
+    color: #333; /* Replace with the color used in your navigation bar */
+    font-size: 16px; /* Adjust the font size as needed */
+    font-weight: bold; /* Adjust font weight as needed */
+    transition: color 0.3s;
+    padding: 10px; /* This adds some padding around the links for a better click target */
+  }
+  
+  .cta-link:hover {
+    color: #007bff; /* Replace with the hover color used in your navigation bar */
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 467px) {
+    .cta-navigation {
+      flex-direction: column;
+    }
+  
+    .cta-link {
+      flex-basis: 100%; /* Full width on mobile */
+    }
+  }
+  
+  /* Media query for tablets and small desktops to split into two columns */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .cta-link {
+      flex-basis: calc(50% - 10px); /* Split into two columns with spacing */
+    }
+  }
+  

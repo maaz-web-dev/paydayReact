@@ -1,6 +1,7 @@
 
 import './App.css'
 import Advantages from './component/Advantage.jsx';
+import CTANavigation from './component/CTANavigation.jsx';
 // import { Header } from './component/Header.jsx';
 import { Header } from './component/Header.jsx';
 import { Main } from './component/Header.jsx';
@@ -18,6 +19,8 @@ function App() {
         <Hero />
         <Advantages />
         <Pricing />
+        <CTANavigation />
+
       </div>
     </>
   )
