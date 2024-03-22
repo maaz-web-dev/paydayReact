@@ -5,6 +5,7 @@ import Advantages from './component/Advantage.jsx';
 import { Header } from './component/Header.jsx';
 import { Main } from './component/Header.jsx';
 import Hero from './component/Hero.jsx';
+import Pricing from './component/Pricing.jsx';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Main />
         <Hero />
         <Advantages />
+        <Pricing />
       </div>
     </>
   )
