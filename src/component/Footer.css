@@ -1,0 +1,36 @@
+/* Footer.css */
+.footer-bottom {
+    background-color: #282c34; /* Dark background for modern look */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 10px;
+  }
+  
+  .footer-bottom a {
+    color: #61dafb; /* Bright color for contrast and visibility */
+    text-decoration: none; /* Removes underline from links */
+  }
+  
+  .go-top-btn {
+    display: inline-block;
+    background-color: #61dafb; /* Use a bright color for visibility */
+    color: #282c34; /* Dark text color for contrast */
+    padding: 10px;
+    border-radius: 50%; /* Circular shape */
+    position: fixed;
+    bottom: 20px; /* Positioned at the bottom right */
+    right: 20px;
+    text-decoration: none; /* Removes underline from the link */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3); /* Adds a slight shadow for depth */
+  }
+  
+  .go-top-btn:hover {
+    background-color: #4fa1db; /* Darker shade on hover for interaction feedback */
+  }
+  
+  /* Hide the go-top button until it's needed */
+  .go-top-btn[data-go-top] {
+    display: none;
+  }
+  

@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import './Disclosures.css'; // Ensure the path is correct based on your project structure
 
 const Disclosures = () => {
@@ -13,6 +13,7 @@ const Disclosures = () => {
       <p className="section-text">When a lender decides to offer you a loan, it is required by law to provide documents that contain all fees and rate information pertaining to the loan, including any potential fees for late-payments, and the terms (if permitted by applicable law) to refinance, renew or rollover your loan. Loan fees and interest rates are determined solely by the lender or financial service provider based on their internal policies, underwriting criteria and applicable law. This website has no knowledge of or control over the loan terms offered to you.</p>
       <h1 className="title">Late Payments Hurt Your Credit Score</h1>
       <p className="section-text">Please be aware that missing a payment or making a late payment can negatively impact your credit score. To protect yourself and your credit history, make sure you only accept loan terms that you can afford to repay. If you cannot make a payment on time, you should contact your lender immediately and discuss how to proceed with late payments.</p>
+    <div className='p-5'></div>
     </div>
   );
 };

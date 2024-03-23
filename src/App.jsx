@@ -1,29 +1,29 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// import CTANavigation from '../ components/CTANavigation'; // Adjust the import path as necessary
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-import './App.css'
-import Advantages from './component/Advantage.jsx';
-import CTANavigation from './component/CTANavigation.jsx';
-// import { Header } from './component/Header.jsx';
-import { Header } from './component/Header.jsx';
-import { Main } from './component/Header.jsx';
-import Hero from './component/Hero.jsx';
-import Pricing from './component/Pricing.jsx';
+import {Home} from './pages/Home';
+import { HowItWorks } from './pages/HowItWorks';
+// Import other pages/components
+import AboutUs from './pages/AboutUs';
+// import HowItWorks from './pages/HowItWorks';
+// Continue importing other components that correspond to your routes
 
 function App() {
-
-
   return (
-    <>
-      <div>
-        <Header />
-        <Main />
-        <Hero />
-        <Advantages />
-        <Pricing />
-        <CTANavigation />
-
-      </div>
-    </>
-  )
+    <Router>
+      <>
+        {/* <CTANavigation /> */}
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/how-it-works" element={<HowItWorks />} />
+          {/* Define more routes here using the element prop */}
+        </Routes>
+      </>
+    </Router>
+  );
 }
 
-export default App
+export default App;
