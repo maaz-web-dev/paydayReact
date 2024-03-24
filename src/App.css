@@ -151,7 +151,7 @@
 
 li { list-style: none; }
 
-a { text-decoration: none; }
+Link { text-decoration: none; }
 
 input {
   font: inherit;
@@ -177,7 +177,7 @@ button {
   transition: 0.3s;
 }
 
-a,
+Link,
 img,
 span,
 input,
@@ -288,7 +288,7 @@ header .container {
   max-width: unset;
   padding: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -575,14 +575,14 @@ header .container {
   text-align: center;
 }
 
-.faq-bottom-link > a {
+.faq-bottom-link > Link {
   color: var(--sonic-silver);
   text-decoration: underline;
   margin-top: 5px;
   display: inline-block;
 }
 
-.faq-bottom-link > a:is(:hover, :focus) { color: var(--granite-gray); }
+.faq-bottom-link > Link:is(:hover, :focus) { color: var(--granite-gray); }
 
 
 
@@ -609,14 +609,14 @@ header .container {
   margin-bottom: 10px;
 }
 
-.cta-button-wrapper > a {
+.cta-button-wrapper > Link {
   color: var(--sonic-silver);
   font-size: var(--fs-7);
   text-decoration: underline;
   display: inline-block;
 }
 
-.cta-button-wrapper > a:is(:hover, :focus) { color: var(--granite-gray); }
+.cta-button-wrapper > Link:is(:hover, :focus) { color: var(--granite-gray); }
 
 
 
@@ -669,12 +669,12 @@ header .container {
   margin-bottom: 15px;
 }
 
-.copyright > a {
+.copyright > Link {
   color: inherit;
   display: inline-block;
 }
 
-.copyright > a:is(:hover, :focus) { text-decoration: underline; }
+.copyright > Link:is(:hover, :focus) { text-decoration: underline; }
 
 .social-list {
   display: flex;

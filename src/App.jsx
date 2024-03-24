@@ -7,6 +7,9 @@ import {Home} from './pages/Home';
 import { HowItWorks } from './pages/HowItWorks';
 // Import other pages/components
 import AboutUs from './pages/AboutUs';
+import ImportantNotices from './pages/ImportantNotices ';
+import ElectronicConsent from './pages/ElectronicConsent';
+import CommitmentToResponsibleLending from './pages/LendingPolicy';
 // import HowItWorks from './pages/HowItWorks';
 // Continue importing other components that correspond to your routes
 
@@ -19,7 +22,10 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/how-it-works" element={<HowItWorks />} />
-          {/* Define more routes here using the element prop */}
+          <Route path="/disclaimer" element={<ImportantNotices />} />
+          <Route path="/e-consent" element={<ElectronicConsent />} />
+          <Route path="/lending-policy" element={CommitmentToResponsibleLending} />
+           {/* Define more routes here using the element prop */}
         </Routes>
       </>
     </Router>

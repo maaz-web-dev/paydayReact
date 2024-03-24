@@ -1,4 +1,5 @@
 // import React from 'react';
+import { Link } from 'react-router-dom';
 // import './assets/css/style.css'; // Make sure the path matches your project structure
 import logo from '../assets/images/DSCLOGO.jpg';
 export const Header = () => {
@@ -6,9 +7,9 @@ export const Header = () => {
         <header data-header>
             <div className="overlay" data-overlay></div>
             <div className="container">
-                <a href="#" className="logo">
+                <Link href="#" className="logo">
                     <img src={logo} width="54" alt="doorestepcash logo" />
-                </a>
+                </Link>
                 <button className="nav-open-btn" data-nav-open-btn>
                     <ion-icon name="menu-outline"></ion-icon>
                 </button>
@@ -18,15 +19,15 @@ export const Header = () => {
                     </button>
                     <ul className="navbar-list">
                         <li className="navbar-item">
-                            <a href="#home" className="navbar-link">Home</a>
+                            <a to="" className="navbar-link">Home</a>
                         </li>
                         <li className="navbar-item">
-                            <a href="./Pages/aboutUs.html" className="navbar-link">About</a>
+                            <Link href="./pages/AboutUs" className="navbar-link">About</Link>
                         </li>
                     </ul>
-                    <a href="./form/form.html">
+                    <Link to="./form/form.html">
                         <button className="btn btn-primary">Let's Started</button>
-                    </a>
+                    </Link>
                 </nav>
             </div>
         </header>

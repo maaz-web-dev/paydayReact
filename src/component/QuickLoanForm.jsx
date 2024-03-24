@@ -1,5 +1,4 @@
 // QuickLoanForm.jsx
-import React from 'react';
 import './QuickLoanForm.css'; // Adjust the file name as necessary
 
 const QuickLoanForm = () => {
