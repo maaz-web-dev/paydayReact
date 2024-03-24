@@ -1,7 +1,7 @@
 import React from 'react';
-import QuickLoanForm from '../components/QuickLoanForm'; // Update this path as needed
+// import QuickLoanForm from ' /QuickLoanForm'; // Update this path as needed
 import logo from '../assets/images/DSCLOGO.jpg'; // Update this path as needed
-
+import QuickLoanForm from '../component/QuickLoanForm';
 const CommitmentToResponsibleLending = () => {
   return (
     <div className="container my-5">

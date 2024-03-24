@@ -10,6 +10,8 @@ import AboutUs from './pages/AboutUs';
 import ImportantNotices from './pages/ImportantNotices ';
 import ElectronicConsent from './pages/ElectronicConsent';
 import CommitmentToResponsibleLending from './pages/LendingPolicy';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import RatesAndFees from './pages/RatesAndFees';
 // import HowItWorks from './pages/HowItWorks';
 // Continue importing other components that correspond to your routes
 
@@ -24,8 +26,10 @@ function App() {
           <Route path="/how-it-works" element={<HowItWorks />} />
           <Route path="/disclaimer" element={<ImportantNotices />} />
           <Route path="/e-consent" element={<ElectronicConsent />} />
-          <Route path="/lending-policy" element={CommitmentToResponsibleLending} />
+          <Route path="/lending-policy" element={<CommitmentToResponsibleLending/>} />
            {/* Define more routes here using the element prop */}
+           <Route path="/privacy-policy" element={<PrivacyPolicy/>} />
+           <Route path="/rates-fees" element={<RatesAndFees/>} />
         </Routes>
       </>
     </Router>
