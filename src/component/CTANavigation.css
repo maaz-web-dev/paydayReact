@@ -8,7 +8,11 @@
     border-top: 1px solid #ccc; /* This adds the top line */
     border-bottom: 1px solid #ccc; /* This adds the bottom line */
   }
-  
+  .cta-link.active {
+    color: #007bff; /* Active link color, for example, a blue color */
+    font-weight: bold;
+    /* Any other styles you want to apply to active links */
+}
   .cta-link {
     text-decoration: none;
     color: #333; /* Replace with the color used in your navigation bar */
