@@ -1,8 +1,10 @@
 import React from 'react';
-import QuickLoanForm from './QuickLoanForm'; // Ensure this points to the correct file location
-
+// import QuickLoanForm from './QuickLoanForm'; // Ensure this points to the correct file location
+import QuickLoanForm from '../component/QuickLoanForm';
+import { CombineComp } from './CombineComp';
 const TermsOfService = () => {
   return (
+    <>
     <div className="container">
       <a href="../index.html" className="logo">
         <img src="../assets/images/DSCLOGO.jpg" alt="doorestepcash logo" width="54" height="auto" />
@@ -31,6 +33,8 @@ const TermsOfService = () => {
         </div>
       </div>
     </div>
+    <CombineComp/>
+    </>
   );
 };
 

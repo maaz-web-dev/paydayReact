@@ -1,8 +1,10 @@
 import React from 'react';
-import QuickLoanForm from './QuickLoanForm'; // Adjust the path as necessary
-
+// import QuickLoanForm from './QuickLoanForm'; // Adjust the path as necessary
+import QuickLoanForm from '../component/QuickLoanForm';
+import { CombineComp } from './CombineComp';
 const RatesAndFees = () => {
   return (
+    <>
     <div className="container">
       <a href="../index.html" className="logo">
         <img src="../assets/images/DSCLOGO.jpg" width="54px" height="auto" alt="doorestepcash logo" />
@@ -44,6 +46,8 @@ const RatesAndFees = () => {
         </div>
       </div>
     </div>
+    <CombineComp/>
+    </>
   );
 };
 

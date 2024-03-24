@@ -12,6 +12,9 @@ import ElectronicConsent from './pages/ElectronicConsent';
 import CommitmentToResponsibleLending from './pages/LendingPolicy';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import RatesAndFees from './pages/RatesAndFees';
+import TermsOfService from './pages/TermOfUse';
+import WhyChooseUs from './pages/WhyChoseUs';
+import ContactPage from './pages/ContactPage';
 // import HowItWorks from './pages/HowItWorks';
 // Continue importing other components that correspond to your routes
 
@@ -30,6 +33,9 @@ function App() {
            {/* Define more routes here using the element prop */}
            <Route path="/privacy-policy" element={<PrivacyPolicy/>} />
            <Route path="/rates-fees" element={<RatesAndFees/>} />
+           <Route path="/terms-of-use" element={<TermsOfService />} />
+           <Route path="/contact" element={<ContactPage />} />
+           <Route path="/why-choose-us" element={<WhyChooseUs />} />
         </Routes>
       </>
     </Router>

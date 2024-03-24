@@ -2,8 +2,10 @@ import React from 'react';
 // import QuickLoanForm from ' /QuickLoanForm'; // Update this path as needed
 import logo from '../assets/images/DSCLOGO.jpg'; // Update this path as needed
 import QuickLoanForm from '../component/QuickLoanForm';
+import { CombineComp } from './CombineComp';
 const CommitmentToResponsibleLending = () => {
   return (
+    <>
     <div className="container my-5">
       <a href="/" className="logo">
         <img src={logo} width="54" height="auto" alt="doorestepcash logo" />
@@ -35,6 +37,8 @@ const CommitmentToResponsibleLending = () => {
         </div>
       </div>
     </div>
+    <CombineComp/>
+    </>
   );
 };
 

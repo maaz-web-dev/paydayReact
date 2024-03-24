@@ -1,8 +1,10 @@
 import React from 'react';
-import QuickLoanForm from './QuickLoanForm'; // Assuming you have a QuickLoanForm component
-
+// import QuickLoanForm from './QuickLoanForm'; // Assuming you have a QuickLoanForm component
+import QuickLoanForm from '../component/QuickLoanForm';
+import { CombineComp } from './CombineComp';
 const PrivacyPolicy = () => {
   return (
+    <>
     <div className="container">
       <a href="../index.html" className="logo">
         {/* Ensure the path to your image is correct */}
@@ -48,6 +50,8 @@ const PrivacyPolicy = () => {
         </div>
       </div>
     </div>
+    <CombineComp/>
+    </>
   );
 };
 
